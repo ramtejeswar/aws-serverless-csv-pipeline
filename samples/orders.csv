@@ -1,0 +1,11 @@
+order_id,customer_email,amount,currency,order_date
+ORD-1001,asha@example.com,49.99,USD,2026-11-01
+ORD-1002,ben@example.com,120.00,USD,2026-11-01
+ORD-1003,chen@example.com,15.5,EUR,2026-11-02
+ORD-1004,not-an-email,30.00,USD,2026-11-02
+ORD-1005,dana@example.com,-5.00,USD,2026-11-03
+ORD-1006,elif@example.com,250,GBP,2026-11-03
+ORD-1001,asha@example.com,49.99,USD,2026-11-04
+ORD-1008,femi@example.com,75.25,USD,2026-13-40
+ORD-1009,gita@example.com,9.99,usd,2026-11-05
+ORD-1010,hugo@example.com,310.00,CAD,2026-11-05

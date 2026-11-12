@@ -1,0 +1,19 @@
+# Terraform: state contains real resource IDs and must never be committed
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+infra/.build/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
