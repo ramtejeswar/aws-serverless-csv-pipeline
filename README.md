@@ -3,7 +3,6 @@
 [![CI](https://github.com/ramtejeswar/aws-serverless-csv-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/ramtejeswar/aws-serverless-csv-pipeline/actions/workflows/ci.yml)
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
 An event-driven pipeline that ingests CSV files of orders. A client uploads a file straight to S3, a queue-driven worker validates every row in the background, valid rows are stored in DynamoDB, and the client polls an API for the outcome. It is built from managed AWS services and deployed with Terraform.
 
@@ -142,6 +141,3 @@ Every service here is billed per use, with no instances running. At personal-pro
 - [Runbook](docs/RUNBOOK.md): deploy, verify, debug, handle the dead-letter queue, tear down
 - [Roadmap](docs/ROADMAP.md): planned improvements
 
-## License
-
-[MIT](LICENSE) © 2026 Ram Tejaswar Addagarla
